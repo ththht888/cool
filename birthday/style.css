@@ -1,0 +1,397 @@
+body,
+p {
+  margin: 0;
+}
+.blockMain {
+  background-position: 50% 50%;
+  width: 100%;
+  height: 785px;
+  object-fit: cover;
+  background-size: cover;
+  background-image: url("https://images01.nicepagecdn.com/a1389d7bc73adea1e1c1fb7e/ae4462f2c5695f6b8864d081/front-view-kid-wearing-party-hat_23-2149477945.jpeg");
+}
+.blockAAA {
+  background-color: #ffffffff;
+  height: 387px;
+  width: calc(((100% - 1140px) / 2) + 570px);
+  border-bottom-right-radius: 50px;
+  border-top-right-radius: 50px;
+  position: absolute;
+  top: 300px;
+}
+.blockBirthday {
+  margin: 44px 0 0 99px;
+  padding-top: 30px;
+  font-size: 6rem;
+  color: #f1c50e;
+  font-family: Lobster;
+  font-weight: 100;
+}
+.Btext {
+  margin: 0 92px 0 99px;
+  font-size: 3.75rem;
+  line-height: 1;
+  font-weight: 500;
+  font-family: Montserrat, sans-serif;
+}
+.link {
+  margin: 32px 92px 0 99px;
+  font-family: Open Sans, sans-serif;
+}
+.blockWWD {
+  background-image: url(https://images01.nicepagecdn.com/a1389d7bc73adea1e1c1fb7e/e488fd2c86fc54058cb04108/Untitled-1.jpg);
+  background-position: 50% 0%;
+  background-size: cover;
+  width: 100%;
+  object-fit: cover;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  flex-direction: column;
+  min-height: 505px;
+}
+.blockIconsEmoji {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.blockwwdtext {
+  color: rgb(17, 17, 17);
+  font-family: Lobster, display;
+  font-size: 48px;
+  font-weight: 700;
+  margin-top: 70px;
+}
+.blockgirl {
+  width: 277px;
+  height: 282px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: column;
+}
+.blockimggirl {
+  width: 103px;
+  height: 103px;
+  margin: 0 auto;
+  padding: 0px;
+}
+.blocktextgirl {
+  font-weight: 500;
+  font-size: 20px;
+  margin: 30px auto 0;
+  font-family: Montserrat, sans-serif;
+}
+.blockminitextgirl {
+  margin: 20px 0 0;
+  font-family: Open Sans, sans-serif;
+  text-align: center;
+  width: 257.5px;
+}
+.blockpeople {
+  background-color: #fef9e6;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.blockAllPeople {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: center;
+  max-width: 1525px;
+  margin: 40px;
+}
+.blockteampeople {
+  padding: 30px 0;
+  width: 360px;
+  height: 445px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.blockimgpeople {
+  width: 257px;
+  height: 257px;
+  border-radius: 50%;
+  background-size: cover;
+  object-fit: cover;
+  background-position: 98% 50%;
+  background-image: url("https://images01.nicepagecdn.com/a1389d7bc73adea1e1c1fb7e/04ee3ddda8d95834bb92e570/portrait-young-woman-casual-clothes-with-blonde-dyed-hair-gently-smiling-during-pleasant-conversation-standing-closed-posture.jpg");
+}
+.blockImgMike {
+  width: 257px;
+  height: 257px;
+  border-radius: 50%;
+  background-size: cover;
+  object-fit: cover;
+  background-position: 100% 50%;
+  background-image: url(https://images01.nicepagecdn.com/a1389d7bc73adea1e1c1fb7e/861162f869e650e0b7798f66/08a3461f-6e0c-4b94-8524-b2fc1f0ce15b.jpg);
+}
+.blockImgNatasha {
+  width: 257px;
+  height: 257px;
+  border-radius: 50%;
+  background-size: cover;
+  object-fit: cover;
+  background-position: 50% 50%;
+  background-image: url(https://images01.nicepagecdn.com/a1389d7bc73adea1e1c1fb7e/ec8c600040e354359214d93e/pexels-gustavo-fring-3983570.jpg);
+}
+.blockImgSteve {
+  width: 257px;
+  height: 257px;
+  border-radius: 50%;
+  background-size: cover;
+  object-fit: cover;
+  background-position: 0% 50%;
+  background-image: url(https://images01.nicepagecdn.com/a1389d7bc73adea1e1c1fb7e/aa992c2ac381589d9df42a92/portrait-cheerful-handsome-bearded-guy-with-fashionable-hairstyle-smiling1.jpg);
+}
+.blockImgMary {
+  width: 257px;
+  height: 257px;
+  border-radius: 50%;
+  background-size: cover;
+  object-fit: cover;
+  background-position: 99% 50%;
+  background-image: url(https://images01.nicepagecdn.com/a1389d7bc73adea1e1c1fb7e/572af275b87a559d93b354c8/travel-agent-hearing-customer-desires-portrait-good-looking-european-businesswoman-blue-blouse-glasses-holding-hands-pockets-smiling-being-friendl.jpg);
+}
+.blockpeopletext {
+  font-size: 24px;
+  font-weight: 700;
+  height: 28px;
+  margin: 30px auto 0;
+  font-family: Montserrat, sans-serif;
+  color: #f1c50e;
+  text-align: center;
+}
+.blockpeopleminitext {
+  width: 151px;
+  height: 25px;
+  font-family: Montserrat, sans-serif;
+  font-style: italic;
+  margin: 20px auto 0;
+  text-align: center;
+}
+.blockinst {
+  height: 63px;
+  min-height: 16px;
+  width: 63px;
+  min-width: 16px;
+  margin: 20px auto 0;
+  background-size: cover;
+  object-fit: cover;
+  background-position: 50%;
+  background-image: url(https://cdns.iconmonstr.com/wp-content/releases/preview/2016/240/iconmonstr-instagram-11.png);
+  cursor: pointer;
+}
+.bigtext {
+  width: 300px;
+  height: 230px;
+  margin: 20px auto 0;
+  font-size: 16px;
+  font-family: Open Sans, sans-serif;
+  line-height: 1.5;
+}
+.secondlink {
+  color: #f1c50e;
+  cursor: pointer;
+  text-decoration: none;
+}
+.blockpointer {
+  width: 64px;
+  height: 64px;
+  margin: 20px auto 0;
+  background-size: cover;
+  object-fit: cover;
+  background-position: 50%;
+  background-image: url(https://images01.nicepagecdn.com/a1389d7bc73adea1e1c1fb7e/ac179b0d2c1f5fd39f381b5a/545682.png);
+}
+.blockGallery {
+  background-color: #ffffff;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.blockGalleryImg {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  max-width: 1525px;
+  margin: 40px;
+}
+.blockPicture {
+  width: 352px;
+  height: 352px;
+}
+.blockImgOne {
+  background-image: url(https://images01.nicepagecdn.com/a1389d7bc73adea1e1c1fb7e/6e0c819d05715066815ff268/excited-kids-releasing-balloons-party_23-2147897597.jpeg);
+  width: 352px;
+  height: 352px;
+  background-size: cover;
+  object-fit: cover;
+  background-position: 50%;
+  cursor: pointer;
+}
+.blockImgTwo {
+  background-image: url(https://images01.nicepagecdn.com/a1389d7bc73adea1e1c1fb7e/d4d6db7c76605ee6896bf1df/children-celebrating-birthday.jpg);
+  width: 352px;
+  height: 352px;
+  background-size: cover;
+  object-fit: cover;
+  background-position: 50%;
+  cursor: pointer;
+}
+.blockImgThree {
+  background-image: url(https://images01.nicepagecdn.com/a1389d7bc73adea1e1c1fb7e/7f9710e1ece658cb989a1f77/children-colored-caps-playing_23-2147807858.jpeg);
+  width: 352px;
+  height: 352px;
+  background-size: cover;
+  object-fit: cover;
+  background-position: 50%;
+  cursor: pointer;
+}
+.blockImgFour {
+  background-image: url(https://images01.nicepagecdn.com/a1389d7bc73adea1e1c1fb7e/acc161c1fe315c0a9625860c/crop-woman-putting-napkin-girl_23-2147783721.jpeg);
+  width: 352px;
+  height: 352px;
+  background-size: cover;
+  object-fit: cover;
+  background-position: 50%;
+  cursor: pointer;
+}
+.blockImgFive {
+  background-image: url(https://images01.nicepagecdn.com/a1389d7bc73adea1e1c1fb7e/47ac0bcd0a96500284b91508/1701344_medium2000.png);
+  width: 352px;
+  height: 352px;
+  background-size: cover;
+  object-fit: cover;
+  background-position: 50%;
+  cursor: pointer;
+}
+.blockImgSix {
+  background-image: url(https://images01.nicepagecdn.com/a1389d7bc73adea1e1c1fb7e/ce44e13b52ee5eec9d8826e4/2050938_medium2000.jpg);
+  width: 352px;
+  height: 352px;
+  background-size: cover;
+  object-fit: cover;
+  background-position: 50%;
+  cursor: pointer;
+}
+.blockFreepik {
+  margin: 43px auto 0;
+  font-size: 16px;
+  font-family: Open Sans, sans-serif;
+}
+.blockButton {
+  margin: 36px auto 60px;
+  background-color: #f1c50e;
+  padding: 16px 46px 17px;
+  letter-spacing: 3px;
+  border-radius: 50px;
+  font-size: 16px;
+  font-family: Open Sans, sans-serif;
+  border: none;
+}
+.blockCallMe {
+  background-color: #f1c50e;
+  height: 400px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.blockMainCallMe {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.blockCallMeText {
+  color: rgb(17, 17, 17);
+  font-family: Lobster, display;
+  font-size: 48px;
+  font-weight: 300;
+  margin-top: 70px;
+}
+.blockCallMeMiniText {
+  margin: 20px auto 0;
+  font-size: 16px;
+  font-family: Open Sans, sans-serif;
+}
+.blockButtonSecond {
+  background-color: #ffffff;
+  margin: 30px auto 60px;
+  padding: 17px 74px 18px 72px;
+  border-radius: 50px;
+  font-size: 16px;
+  font-family: Open Sans, sans-serif;
+  border: none;
+}
+.blockTools {
+  background-image: url(https://images01.nicepagecdn.com/a1389d7bc73adea1e1c1fb7e/e488fd2c86fc54058cb04108/Untitled-1.jpg);
+  background-position: 50% 0%;
+  background-size: cover;
+  width: 100%;
+  height: 685px;
+  object-fit: cover;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  flex-direction: column;
+  min-height: 505px;
+}
+.blockToolsEmoji {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 1300px;
+  margin: 129px;
+}
+.blockPickMeTools {
+  width: 424px;
+  height: 247px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: nowrap;
+  align-items: center;
+  flex-direction: column;
+}
+.blockImgTools{
+  width: 103px;
+  height: 103px;
+}
+.blockTextTools {
+  font-weight: 500;
+  font-size: 20px;
+  margin: 30px auto 0;
+  font-family: Montserrat, sans-serif;
+  font-weight: 700;
+}
+.blockMiniTextTools {
+  margin: 20px 0 0;
+  font-family: Open Sans, sans-serif;
+  text-align: center;
+}
