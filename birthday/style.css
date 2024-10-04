@@ -13,7 +13,7 @@ p {
 .blockAAA {
   background-color: #ffffffff;
   height: 387px;
-  width: calc(((100% - 1140px) / 2) + 570px);
+  width: 714px;
   border-bottom-right-radius: 50px;
   border-top-right-radius: 50px;
   position: absolute;
@@ -108,7 +108,6 @@ p {
   align-items: center;
   gap: 30px;
   flex-wrap: wrap;
-  flex-direction: row;
   align-content: center;
   max-width: 1525px;
   margin: 40px;
@@ -207,8 +206,11 @@ p {
 }
 .secondlink {
   color: #f1c50e;
-  cursor: pointer;
   text-decoration: none;
+}
+.secondlink:hover {
+  cursor: pointer;
+  color: #d9b10d;
 }
 .blockpointer {
   width: 64px;
@@ -310,6 +312,11 @@ p {
   font-family: Open Sans, sans-serif;
   border: none;
 }
+.blockButton:hover {
+  cursor: pointer;
+  background-color: black;
+  color: #ffffff;
+}
 .blockCallMe {
   background-color: #f1c50e;
   height: 400px;
@@ -346,18 +353,25 @@ p {
   font-family: Open Sans, sans-serif;
   border: none;
 }
+.blockButtonSecond:hover {
+  cursor: pointer;
+  color: #111111;
+  background-color: #e6e6e6;
+}
 .blockTools {
   background-image: url(https://images01.nicepagecdn.com/a1389d7bc73adea1e1c1fb7e/e488fd2c86fc54058cb04108/Untitled-1.jpg);
-  background-position: 50% 0%;
+  background-position: 50% 50%;
   background-size: cover;
   width: 100%;
-  height: 685px;
   object-fit: cover;
   display: flex;
   flex-wrap: nowrap;
   align-items: center;
   flex-direction: column;
+  justify-content: center;
   min-height: 505px;
+  margin-top: 80px;
+  margin-bottom: 80px;
 }
 .blockToolsEmoji {
   width: 100%;
@@ -366,20 +380,17 @@ p {
   align-items: center;
   flex-wrap: wrap;
   max-width: 1300px;
-  margin: 129px;
 }
 .blockPickMeTools {
   width: 424px;
-  height: 247px;
-  padding: 10px;
+  padding: 15px;
   display: flex;
   justify-content: center;
   align-content: center;
-  flex-wrap: nowrap;
   align-items: center;
   flex-direction: column;
 }
-.blockImgTools{
+.blockImgTools {
   width: 103px;
   height: 103px;
 }
@@ -391,7 +402,245 @@ p {
   font-weight: 700;
 }
 .blockMiniTextTools {
-  margin: 20px 0 0;
+  margin-top: 20px;
   font-family: Open Sans, sans-serif;
   text-align: center;
+}
+.blockReviews {
+  background-color: #fef9e6;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.blockParents {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 40px;
+  gap: 30px;
+  max-width: 1525px;
+}
+.blockReviewsParents {
+  width: 360px;
+  height: 393px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.blockImgParents {
+  width: 83px;
+  height: 83px;
+  background-position: 50% 50%;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 0 108px 0 108px;
+}
+.blockTextParents {
+  font-family: Montserrat, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.blockMiniTextParents {
+  font-size: 16px;
+  font-family: Open Sans, sans-serif;
+  width: 300px;
+  height: 102px;
+  color: rgb(153, 153, 153);
+  text-align: center;
+  line-height: 25.6px;
+}
+.blockLine {
+  width: 300px;
+  height: 2px;
+  background-color: rgb(241, 197, 14);
+  margin-top: 30px;
+}
+.blockData {
+  width: 300px;
+  height: 22px;
+  font-size: 14px;
+  font-family: Montserrat, sans-serif;
+  color: rgb(153, 153, 153);
+  margin-top: 30px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.blockStat {
+  width: 100%;
+  background-color: #f1c50e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.blockNum {
+  max-width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.blockCount {
+  width: 365px;
+  height: 239px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.blockBigNum {
+  width: 365px;
+  height: 72px;
+  font-size: 60px;
+  font-weight: 700;
+  color: #ffffff;
+  font-family: Montserrat, sans-serif;
+  margin: 0;
+}
+.blockTextNum {
+  width: 365px;
+  height: 24px;
+  font-size: 20px;
+  font-family: Montserrat, sans-serif;
+  margin-top: 24px;
+  margin-bottom: 16px;
+}
+.blockMiniTextNum {
+  width: 365px;
+  height: 25px;
+  font-size: 16px;
+  font-family: Open Sans, sans-serif;
+}
+.blockStrelka {
+  margin-top: 30px;
+  background-size: cover;
+  width: 48px;
+  height: 48px;
+  background-image: url(https://images01.nicepagecdn.com/a1389d7bc73adea1e1c1fb7e/ac179b0d2c1f5fd39f381b5a/545682.png);
+}
+.blockHappyGirl {
+  background-position: 0% 44.93%;
+  background-size: cover;
+  min-height: 785px;
+  width: 100%;
+  height: 785px;
+  object-fit: cover;
+  background-image: url(https://images01.nicepagecdn.com/a1389d7bc73adea1e1c1fb7e/dd62a3120519558785ac677f/close-up-little-girl-having-fun-birthday-party_1098-1319.jpeg);
+  background-repeat: no-repeat;
+}
+.blockHPGR {
+  width: 100%;
+  display: flex;
+}
+.blockEnter {
+  background-color: #ffffffff;
+  height: 387px;
+  width: 714px;
+  border-bottom-right-radius: 50px;
+  border-top-right-radius: 50px;
+  margin: 327px 825px 60px 133px;
+}
+.blockSecondEnter {
+  width: 534px;
+  height: 330px;
+  padding: 30px 40px 30px 120px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 15px;
+}
+.blockTextEnter {
+  width: 362px;
+  height: 24px;
+  font-size: 20px;
+  font-family: Montserrat, sans-serif;
+  margin: 0 172px 0 0;
+}
+.blockName {
+  height: 73px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.blockTextName {
+  width: 45px;
+  height: 22px;
+  font-size: 16px;
+  font-family: Open Sans, sans-serif;
+}
+.blockMainEnter {
+  background-color: #f2f2f2;
+  border-radius: 50px;
+  font-family: Open Sans, sans-serif;
+  height: 47px;
+  font-size: 16px;
+  border-width: 1px;
+  padding: 10px;
+  border: 1px solid #b3b3b3;
+}
+.blockMainEnter:focus {
+  outline: #b3b3b3;
+}
+.blockButtonSend {
+  margin-bottom: 10px;
+  width: 100%;
+}
+.blockSend {
+  background-color: #f1c50e;
+  border-radius: 50px;
+  font-size: 16px;
+  font-family: Open Sans, sans-serif;
+  border: none;
+  padding: 10px 30px 10px 30px;
+}
+.blockSend:hover {
+  cursor: pointer;
+  background-color: #d9b10d;
+}
+.blockFreepikSecond {
+  font-size: 16px;
+  font-family: Open Sans, sans-serif;
+}
+.blockEnd {
+  width: 100%;
+  height: 220px;
+  color: #ffffff;
+  background-color: #333333;
+}
+.blockFirstText {
+  height: 22px;
+  font-size: 14px;
+  font-family: Open Sans, sans-serif;
+  margin-top: 49px;
+  margin-bottom: 49px;
+}
+.blockSecondText {
+  font-size: 12.5px;
+  font-family: Open Sans, sans-serif;
+  margin-top: 40px;
+}
+.blockTextEnd {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.blockEndLink{
+  color: rgb(173, 204, 233);
+}
+@media(max-width:700px){
+  .blockEnter{
+    width: 300px;
+    margin-right: 0;
+  }
 }
