@@ -640,7 +640,130 @@ p {
 }
 @media(max-width:700px){
   .blockEnter{
-    width: 300px;
+    width: 340px;
     margin-right: 0;
+  }
+  .blockAAA{
+    width: 376px;
+    height: 270px;
+    top: 450px;
+  }
+  .blockBirthday{
+    font-size: 72px;
+    margin: 44px 0 0 0;
+  }
+  .Btext{
+    font-size: 24px;
+    margin: 12px 245px 0 0;
+  }
+  .link{
+    font-size: 16px;
+    margin: 26px 0 0;
+  }
+  .blockwwdtext{
+    font-size: 24px;
+  }
+  .blockgirl{
+    width: 340px;
+    height: 248px;
+  }
+  .blockWWD{
+    background-position: 88%;
+  }
+  .blockteampeople{
+    width: 340px;
+    height: 434px;
+  }
+  .blockimgpeople{
+    width: 187px;
+    height: 187px;
+  }
+  .blockImgMike{
+    width: 187px;
+    height: 187px;
+  }
+  .blockImgMary{
+    width: 187px;
+    height: 187px;
+  }
+  .blockImgNatasha{
+    width: 187px;
+    height: 187px;
+  }
+  .blockImgSteve{
+    width: 187px;
+    height: 187px;
+  }
+  .blockImgOne{
+    width: 340px;
+    height: 298px;
+  }
+  .blockImgTwo{
+    width: 340px;
+    height: 298px;
+  }
+  .blockImgThree{
+    width: 340px;
+    height: 298px;
+  }
+  .blockImgFour{
+    width: 340px;
+    height: 298px;
+  }
+  .blockImgFive{
+    width: 340px;
+    height: 298px;
+  }
+  .blockImgSix{
+    width: 340px;
+    height: 298px;
+  }
+  .blockPicture{
+    width: 340px;
+    height: 298px;
+  }
+  .blockinst{
+    width: 50px;
+    height: 50px;
+  }
+  .blockCallMeText{
+    font-size: 24px;
+  }
+  .blockCallMeMiniText{
+    font-size: 16px;
+  }
+  .blockCallMe{
+    height: 282px;
+  }
+  .blockPickMeTools{
+    width: 340px;
+    height: 273px;
+  }
+  .blockTextTools{
+    font-size: 20px;
+  }
+  .blockMiniTextTools{
+    font-size: 16px;
+  }
+  .blockReviewsParents{
+    width: 340px;
+  }
+  .blockBigNum{
+    font-size: 48px;
+    width: 320px;
+    height: 57px;
+  }
+  .blockTextNum{
+    font-size: 20px;
+  }
+  .blockSecondEnter{
+    padding: 10px 10px 10px 10px;
+  }
+  .blockName{
+    width: 320px;
+    height: 73px;
+  }
+  .blockMainEnter{
+    height: 47px;
   }
 }
