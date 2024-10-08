@@ -10,8 +10,8 @@ const wordD = Name[7]
 const wordR = Name[8]
 const wordOne = "тошка"
 
-console.log (wordA, wordR, wordS, wordE, wordN, wordAA, wordL)
-console.log (wordE, wordL, wordK, wordA)
+console.log (wordA + wordR + wordS + wordE + wordN + wordAA + wordL)
+console.log (wordE + wordL + wordK + wordA)
 
 const wordResult = wordK + wordA + wordR + wordOne;
 console.log(wordResult)
