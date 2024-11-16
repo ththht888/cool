@@ -1,41 +1,30 @@
-1;
+// 1.1
+
+// 1;
 const num = -7;
-if (num < 0) {
-  console.log("число отрицательное");
-} else {
-  console.log("число положительное");
-}
+num < 0
+  ? console.log("число отрицательное")
+  : console.log("число положительное");
 
-
-2;
+// 2;
 let string = "Passionfruit";
 console.log(string.length);
 
-
-3;
+// 3;
 console.log(string.slice(-1));
 
-
-4;
+// 4;
 let number = 8;
-if (number % 2 === 0) {
-  console.log("число четное");
-} else {
-  console.log("число нечетное");
-}
+number % 2 === 0 ? console.log("число четное") : console.log("число нечетное");
 
+// 5;
+const word1 = "персик";
+const word2 = "палка";
+word1[0] === word2[0]
+  ? console.log("первые буквы одинаковые")
+  : console.log("первые буквы разные");
 
-5; 
-const word1 = 'персик';
-const word2 = 'палка';
-if (word1[0] === word2[0]) {
-  console.log("первые буквы одинаковые");
-} else {
-  console.log("первые буквы разные");
-}
-
-
-6;
+// 6;
 function lastSimbol(letter) {
   if (letter[letter.length - 1] === "ь") {
     return letter[letter.length - 2];
@@ -45,3 +34,41 @@ function lastSimbol(letter) {
 }
 const result = lastSimbol("гость");
 console.log(result);
+
+// 1.2
+
+// 1
+const num1 = 123456;
+// const one = num1.toString()[0];
+const one = parseInt(String(num1)[0]);
+console.log(one);
+
+// // 2
+const two = parseInt(String(num1)[String(num1).length - 1]);
+console.log(two);
+
+// 3
+
+console.log(one + two);
+
+// 4
+const num2 = 3983878739738;
+console.log(String(num2).length);
+
+// 5
+const num3 = 666;
+const num4 = 660;
+parseInt(String(num3)[0]) === parseInt(String(num4)[0])
+  ? console.log("совпадает")
+  : console.log("не свопадает");
+
+// 1.3
+
+// 1
+const str = 'пчела';
+if (str.length > 1) {
+  const str2 = str[str.length - 2];
+  console.log(str2);
+}
+
+//  2
