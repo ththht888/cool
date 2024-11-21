@@ -3,9 +3,7 @@
 
 // function sumSquares(array) {
 //   let sum = 0;
-//   for (let i = 0; i < array.length; i++) {
-//     sum = sum + array[i] ** 2;
-//   }
+//   for (let i = 0; i < array.length; i++) sum = sum + array[i] ** 2;
 //   return sum;
 // }
 // const num = [1, 2, 3, 4, 5, 6];
@@ -16,9 +14,7 @@
 
 // function sumSquareRoot(array) {
 //   let sum = 0;
-//   for (let i = 0; i < array.length; i++) {
-//     sum += Math.sqrt(array[i]);
-//   }
+//   for (let i = 0; i < array.length; i++) sum += Math.sqrt(array[i]);
 //   return sum;
 // }
 // const num = [1, 121, 25, 100, 144, 16];
@@ -30,9 +26,7 @@
 // function sumPositiveNum(array) {
 //   let sum = 0;
 //   for (let i = 0; i < array.length; i++) {
-//     if (array[i] > 0) {
-//       sum += array[i];
-//     }
+//     if (array[i] > 0) sum += array[i]
 //   }
 //   return sum;
 // }
@@ -43,13 +37,11 @@
 // Дан массив с числами. Найдите сумму тех элементов этого массива, которые больше нуля и меньше десяти.
 
 // function sumNull(array) {
-//       let sum = 0;
-//       for (let i = 0; i < array.length; i++) {
-//         if (array[i] > 0 && array[i] < 10) {
-//           sum += array[i];
-//         }
-//       }
-//       return sum;
-//     }
-//     const num = [1, 2, 3, 4, 5, 15, 17, 9];
-//     console.log(sumPositiveNum(num));
+//   let sum = 0;
+//   for (let i = 0; i < array.length; i++) {
+//     if (array[i] > 0 && array[i] < 10) sum += array[i];
+//   }
+//   return sum;
+// }
+// const num = [1, 2, 3, 4, 5, 15, 17, 9, -10];
+// console.log(sumNull(num));
