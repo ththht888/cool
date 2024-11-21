@@ -40,11 +40,11 @@ console.log(result);
 // 1
 const num1 = 123456;
 // const one = num1.toString()[0];
-const one = parseInt(String(num1)[0]);
+const one = +(String(num1)[0]);
 console.log(one);
 
 // // 2
-const two = parseInt(String(num1)[String(num1).length - 1]);
+const two = +(String(num1)[String(num1).length - 1]);
 console.log(two);
 
 // 3
@@ -58,7 +58,7 @@ console.log(String(num2).length);
 // 5
 const num3 = 666;
 const num4 = 660;
-parseInt(String(num3)[0]) === parseInt(String(num4)[0])
++(String(num3)[0]) === +(String(num4)[0])
   ? console.log("совпадает")
   : console.log("не свопадает");
 
@@ -72,3 +72,8 @@ if (str.length > 1) {
 }
 
 //  2
+if (num3 % num4 === 0) {
+  console.log('без остатка')
+} else {
+  console.log('с остатком')
+}
