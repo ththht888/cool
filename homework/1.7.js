@@ -25,18 +25,22 @@
 
 // const num = 12345;
 // const str = String(num);
-// const arr = [];
-// for (let i = str.length - 1; i >= 0; i--) arr.push(+str[i]);
-// console.log(arr);
+// let resultStr = '';
+
+// for (let i = str.length - 1; i >= 0; i--) resultStr = resultStr + str[i]
+// console.log(resultStr);
 
 // 4
 // Дано некоторое число:
 // 12345
 // Найдите сумму цифр этого числа.
 
-const num = 12345
-// const str = String(num)
-// const arr = []
+// const num = 12345
+// const text = String(num)
+
 // let sum = 0
-// for (let i = 0; i < str.length; i++) sum += i; arr.push(+str[i])
-// console.log(arr)
+
+// for (let i = 0; i < text.length; i++) {
+//     sum = sum + +text[i]
+// }
+// console.log(sum)
