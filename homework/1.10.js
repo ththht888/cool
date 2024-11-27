@@ -1,11 +1,12 @@
 // 1
 // Заполните массив случайными числами из промежутка от 1 до 100.
 
-// let arr = []
-// for (let i = 0; i <= 5; i++) {
-//     arr[i] = Math.floor(Math.random()* 100)
-// };
-// console.log(arr)
+let arr = []
+for (let i = 0; i <= 5; i++) {
+    const randomNum = Math.ceil(Math.random()* 100)
+    randomNum === 0 ?  arr.push(100) : arr.push(randomNum)
+};
+console.log(arr)
 
 // 2
 // Дано некоторое число:
@@ -51,11 +52,11 @@ let arr1 = [1, 2, 3];
 let arr2 = [4, 5, 6];
 // Слейте эти массивы в новый массив:
 // [1, 2, 3, 4, 5, 6]
-let arr = []
+// let arr = []
 
 // for (let i = 0; i < arr2.length; i++) {
 //     arr.push(arr2[i] + arr1)
 // }
-arr1.forEach(item => arr.push(item));
-arr2.forEach(item => arr.push(item));
-console.log(arr)
+// arr1.forEach(item => arr.push(item));
+// arr2.forEach(item => arr.push(item));
+// console.log(arr)
