@@ -3,9 +3,7 @@
 // const arr = [-1, -2, -3, 0, 1, 2, 3];
 // let num = 0;
 // for (let i = 0; i <= arr.length; i++) {
-//   if (arr[i] < 0) {
-//     num++;
-//   }
+//   if (arr[i] < 0) num++;
 // }
 // console.log(num);
 
@@ -13,9 +11,7 @@
 // Дан массив с числами. Оставьте в нем только положительные числа.
 // let arr2 = [];
 // for (let i = 0; i < arr.length; i++) {
-//   if (arr[i] > 0) {
-//     arr2.push(arr[i]);
-//   }
+//   if (arr[i] > 0) arr2.push(arr[i]);
 // }
 // console.log(arr2);
 
@@ -27,6 +23,12 @@
 
 // 4
 // Дан некоторый массив, например, вот такой:
-// const arr = [1, 2, 3, 4, 5, 6]
+// const arr = [1, 2, 3, 4, 5, 6];
 // Поделите сумму первой половины элементов этого массива на сумму второй половины элементов.
-// let sum = 0
+// let sumOne = 0
+// for (let i = 0; i< arr.length / 2; i++) sumOne = sumOne + arr[i];
+
+// let sumTwo = 0
+// for (let i = arr.length - 1; i >= arr.length / 2; i--) sumTwo = sumTwo + arr[i];
+
+// console.log(sumTwo + sumOne)
