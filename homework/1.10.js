@@ -38,12 +38,6 @@
 //   } else if (resArr.length === 2) {
 //     resArr = [];
 //     resArr.push(arr[i]);
-//   } else if (resArr.length === 3) {
-//     resArr.push(arr[i]);
-//     console.log(resArr)
-//   } else if (resArr.length === 4) {
-//     resArr = [];
-//     resArr.push(arr[i]);
 //   }
 // }
 

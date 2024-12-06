@@ -3,9 +3,12 @@
 // const str = "asd2udj4u8";
 // let position = 0;
 
-// for (let i = 0; i < str.length; i++)  {
-//     position = i;
+// for (let i = 0; i < str.length; i++) {
+//   if (+str[i]) {
+//     console.log(i);
+//     break;
 //   }
+// }
 
 // console.log(position);
 
@@ -27,8 +30,7 @@
 // let count = 0
 
 // for (let i = 0; i < numStr.length; i++) {
-//     const num2 = +numStr[i];
-//     if (num2 % 2 === 0) count++
+//     if (+numStr[i] % 2 === 0) count++
 // }
 // console.log(count)
 
@@ -39,7 +41,7 @@
 // 'AbCdE'
 // let result = "";
 // for (let i = 0; i < str.length; i++) {
-//   if (i % 2 !== 0) {
+//   if (i % 2 === 0) {
 //     result += str[i].toUpperCase();
 //   } else {
 //     result += str[i];
@@ -49,11 +51,23 @@
 
 // 5
 // Дана некоторая строка со словами:
-// const str = 'aaa bbb ccc'
+const str = "aaa bbb ccc";
 // Сделайте заглавным первый символ каждого слова в этой строке. В нашем случае должно получится следующее:
 // 'Aaa Bbb Ccc'
-// let result = "";
-// for (let i = 0; i < str.length; i++) {
-    
-// }
+const strSplit = str.split(" ");
+let result = "";
 
+for (let i = 0; i < str.length; i++) {
+  const value = strSplit[i];
+  const text = value[0].toUpperCase() + value.slice(1);
+
+  if (i === strSplit.length - 1) {
+    result += text;
+  } else {
+    result += text + " ";
+  }
+}
+strSplit.forEach((item, index) => {
+  const text = item[0].toUpperCase() + item.slice(1);
+  result = result + text + (index === strSplit.length - 1 ? "" : " ");
+});

@@ -10,16 +10,14 @@
 // const num = 34054034030345603450;
 // const str = String(num);
 
-// let check = 0
+// let check = 0;
 
 // for (let i = 0; i <= str.length; i++) {
-//     if (str[i] === '0') {
-//         check ++
-//         console.log(check)
-//         if (check === 3) console.log(str.indexOf('0', i))
-//     }
+//   if (str[i] === "0") {
+//     check++;
+//     if (check === 3) console.log(str.indexOf("0", i));
+//   }
 // }
-
 
 // 3
 // Даны числа, разделенные запятыми:
@@ -29,10 +27,10 @@
 // const numbers = num.split(',');
 
 // for (let i = 0; i < numbers.length; i++) {
-//   sum += +numbers[i]; 
+//   sum += +numbers[i];
 // }
 
-// console.log(sum); 
+// console.log(sum);
 
 // 4
 // const str = '2025-12-31';

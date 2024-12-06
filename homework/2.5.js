@@ -14,9 +14,9 @@
 // const str = 'abcdefg'
 // Удалите из этой строки каждый третий символ. В нашем случае должно получится следующее:
 // 'abdeg'
-// let result = ''
+// let result = "";
 
 // for (let i = 0; i < str.length; i++) {
-//     if (str[i] % 3 !== 0) result += str[i]
+//   if (i % 3 !== 0) result += str[i - 1];
 // }
-// console.log(result)
+// console.log(result);
