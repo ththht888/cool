@@ -29,16 +29,41 @@
 // 3
 // Дана некоторая строка с числом:
 
-const str = "1234567";
+// const str = "1234567";
 // Отделите тройки цифр пробелами, начиная с конца числа. В нашем случае должно получится следующее:
 
-'1 234 567'
-let num = "";
-for (let i = str.length - 1; i >= 0; i--) {
-  num = str[i] + num;
-  if (str % 3 === 0 && i !== 0) num = " " + num;
-  console.log(num)
-}
+// ("1 234 567");
+// let result = "";
+// let num = "";
+// for (let i = str.length - 1; i >= 0; i--) {
+//   num = str[i] + num;
+//   if (num.length % 3 === 0) {
+//     num = " " + num;
+//     result = `${num}${result}`;
+//     num = "";
+//   }
+//   if (i == 0) {
+//     result = `${num}${result}`;
+//     num = "";
+//   }
+// }
+// console.log(result);
+
+// второй вариант
+// console.log(Number(str).toLocaleString('ru-RU'))
+
+// 4
+// Сменить регистр на противоположный
+// const str = "AbCdE";
+// let text = "";
+// for (let i = 0; i < str.length; i++) {
+//   if (str[i] === str[i].toLocaleLowerCase()) {
+//     text += str[i].toLocaleLowerCase();
+//   } else {
+//     text += str[i].toLocaleUpperCase();
+//   }
+// }
+// console.log(text);
 
 // 5
 // Дан некоторый массив с числами, например, вот такой:
@@ -56,8 +81,20 @@ for (let i = str.length - 1; i >= 0; i--) {
 // 6
 // Дана некоторая строка со словами:
 
-// const str = 'aaa bbb ccc eee fff'
+// const str = "aaa bbb ccc eee fff";
 // Сделайте заглавным первый символ каждого второго слова в этой строке. В нашем случае должно получится следующее:
 
 // 'aaa Bbb ccc Eee fff'
+// const strSplit = str.split(" ");
+// let result = "";
+// for (let i = 0; i < strSplit.length; i++) {
+//   const value = strSplit[i];
+//   const text = value[0].toLocaleUpperCase() + value.slice(1);
 
+//   if (i === str.length - 1) {
+//     result += text;
+//   } else {
+//     result += text + " ";
+//   }
+// }
+// console.log(result);

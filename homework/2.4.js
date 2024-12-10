@@ -71,3 +71,4 @@ strSplit.forEach((item, index) => {
   const text = item[0].toUpperCase() + item.slice(1);
   result = result + text + (index === strSplit.length - 1 ? "" : " ");
 });
+console.log(result)
